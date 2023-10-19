@@ -87,7 +87,7 @@ public class BettingHouse {
         String inputText = input.nextLine();           
         return inputText;
     }
-
+    
     public static void signUp(){
     	String id = readConsole("Id: ");
         String firstName = readConsole("First Name: ");
