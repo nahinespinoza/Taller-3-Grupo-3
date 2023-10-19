@@ -21,4 +21,14 @@ File file2 = new File("Log.txt");
     System.out.println("****Usuario ["+user.getNickname()+"] Registrado**** "+cal.getTime());
     }catch(FileNotFoundException e){System.out.println(e.getMessage());}    
     }
+    
+    pointcut registrarLog() : call(* effectiveLog*(User));
+    
+    after() : registrarLog() {
+    this.cal = Calendar.getInstance();
+    try(PrintWriter pw=new PrintWriter(new FileOutputStream(file2,true))){
+    pw.println("Log registrado: ["+user+"]    Fecha: ["+cal.getTime() + "]");
+    System.out.println("****Usuario ["+user+"] Registrado**** "+cal.getTime());
+    }catch(FileNotFoundException e){System.out.println(e.getMessage());}    
+    }
 }
