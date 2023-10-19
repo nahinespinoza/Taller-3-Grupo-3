@@ -1,0 +1,1 @@
+Usuario registrado: [nickname = Ariel, password = 1234]    Fecha: [Wed Oct 18 21:38:31 ECT 2023]
