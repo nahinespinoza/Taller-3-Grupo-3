@@ -1,1 +1,3 @@
-Usuario registrado: [nickname = Ariel, password = 1234]    Fecha: [Wed Oct 18 21:38:31 ECT 2023]
+Usuario registrado: [nickname = NahinEo, password = nahinnahin]    Fecha: [Wed Oct 18 20:52:11 COT 2023]
+Usuario registrado: [nickname = DavidlunaT, password = 1234]    Fecha: [Wed Oct 18 21:27:17 ECT 2023]
+Usuario registrado: [nickname = ArielV, password = 1234]    Fecha: [Wed Oct 18 21:56:27 ECT 2023]
